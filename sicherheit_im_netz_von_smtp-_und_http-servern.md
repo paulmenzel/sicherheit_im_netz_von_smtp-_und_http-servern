@@ -20,6 +20,7 @@
 
 ## Angriffsmodell
 
+-  Annahme: Keine Übernahme der Server durch Angreifer
 -  Mittelsmannangriff
 
 ### Realistisch?
@@ -45,5 +46,15 @@
 
 - [Nmap](https://nmap.org/)
 - [SSLyze](https://nabla-c0d3.github.io/)
+
+# Ausblick
+
+## Sicherheit der Serverprogramme
+
+-   Problem: Dienste von überall erreichbar
+-   Beliebige Eingabe (Analyseprogramme (Spam, Virenschutz), Formulare)
+-   Untersuchung der Sicherheit der Server
+    -   SMTP: Postfix, Exim, …
+    -   HTTP: Apache HTTP Server, Nginx, …
 
 # Fragen
