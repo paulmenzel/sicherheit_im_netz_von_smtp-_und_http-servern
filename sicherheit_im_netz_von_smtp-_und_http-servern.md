@@ -42,16 +42,35 @@
 
 # Angriffe
 
+## Poodle, DROWN, …
+
 Verschiedene Angriffe.
 
 1.  Downgrade-Attacke (STARTTLS)
+2.  Poodle, DROWN
+3.  Unsichere Chiffren
 
-# Verbreitung bei MPG
+## Sichere Konfiguration
 
-## Werkzeuge
+1.  [BetterCrypto.org](https://bettercrypto.org/)
+1.  [Mozilla Wiki: Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS)
+1.  [Cipherli.st](https://cipherli.st/)
 
-- [Nmap](https://nmap.org/)
-- [SSLyze](https://nabla-c0d3.github.io/)
+## Test
+
+### WWW
+
+1.  [Hardenize](https://www.hardenize.com/)
+1.  [SSL-Tools](https://ssl-tools.net/)
+1.  [SSL Server Test von Qualys SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=login.rz.ruhr-uni-bochum.de)
+
+### Kommandozeile
+
+1.  OpenSSL, GnuTLS
+1.  [Nmap](https://nmap.org/)
+1.  [SSLyze](https://nabla-c0d3.github.io/)
+
+# MPG
 
 ## Zeitraum
 
