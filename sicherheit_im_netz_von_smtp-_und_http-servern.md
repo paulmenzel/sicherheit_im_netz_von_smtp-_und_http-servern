@@ -47,6 +47,10 @@
 - [Nmap](https://nmap.org/)
 - [SSLyze](https://nabla-c0d3.github.io/)
 
+## Zeitraum
+
+-   8.\,November 2017
+
 # Ausblick
 
 ## Sicherheit der Serverprogramme
