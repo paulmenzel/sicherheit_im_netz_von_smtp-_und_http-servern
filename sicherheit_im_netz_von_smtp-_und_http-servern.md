@@ -40,6 +40,12 @@
 
 -  Ende-zu-Ende-Verschlüsselung (PGP/GPG, S/MIME)
 
+# Angriffe
+
+Verschiedene Angriffe.
+
+1.  Downgrade-Attacke (STARTTLS)
+
 # Verbreitung bei MPG
 
 ## Werkzeuge
