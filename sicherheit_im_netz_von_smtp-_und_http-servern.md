@@ -74,7 +74,7 @@ Verschiedene Angriffe.
 
 ## Zeitraum
 
--   8.\,November 2017
+-   8. November 2017
 
 # Ausblick
 
