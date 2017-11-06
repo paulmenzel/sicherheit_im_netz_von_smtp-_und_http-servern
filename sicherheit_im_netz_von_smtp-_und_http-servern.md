@@ -11,4 +11,39 @@
 - Diplom-Wirtschaftsmathematiker an [TU Berlin](https://www.tu-berlin.de/)
 - FLOSS-Befürworter
 
+# Problemstellung
+
+## Ziel
+
+-  Sichere Übertragung von Daten
+-  Geheim und authentifiziert
+
+## Angriffsmodell
+
+-  Mittelsmannangriff
+
+### Realistisch?
+
+-  DFN-Netz separat vom „Internet“
+-  Netzwerkgeräte meist im Ausland produziert und enthält BLOBs
+-  Snowden-Veröffentlichungen zeigen, dass realistisch.
+
+## Lösungen
+
+-  TLS
+   -  Zertifikatsstellen
+   -  [Monkeysphere Project](http://web.monkeysphere.info/)
+-  DANE
+
+### Nur bei SMTP
+
+-  Ende-zu-Ende-Verschlüsselung (PGP/GPG, S/MIME)
+
+# Verbreitung bei MPG
+
+## Werkzeuge
+
+- [Nmap](https://nmap.org/)
+- [SSLyze](https://nabla-c0d3.github.io/)
+
 # Fragen
