@@ -187,6 +187,7 @@ Bitte überprüfen!
 -   Untersuchung der Sicherheit der Server
     -   SMTP: Postfix, Exim, …
     -   HTTP: Apache HTTP Server, Nginx, …
+-   Finanzierung von Audits und Umsetzung von neuen Methoden
 
 ## Fazit
 
@@ -194,5 +195,6 @@ Bitte überprüfen!
 1.  Mehr Gewissenhaftigkeit
 1.  Mehr Bewusstsein (DNSSEC, DFN)
 1.  Ohne DANE keine automatische Konfiguration möglich, manuelle Konfiguration erforderlich
+1.  Finanzierung von Verbesserung der Browser und Weiterentwicklung der Erweiterungen
 
 # Fragen
