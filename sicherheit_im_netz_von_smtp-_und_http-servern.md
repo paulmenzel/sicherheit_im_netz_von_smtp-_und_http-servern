@@ -159,6 +159,11 @@ Bitte überprüfen!
 1.  SSL-Terminierung (HAProxy)
 1.  Wechsel zu Let’s Encrypt und Skript, dass Zertifikate in Echtzeit erstellt
 
+## HTTP/2
+
+1.  Standardmäßig HTTPS
+1.  Vorteil für mobile Nutzer (besonders bei schlechtem System wie Fiona oder OHB)
+
 # Ausblick
 
 ## Sicherheit der Serverprogramme
