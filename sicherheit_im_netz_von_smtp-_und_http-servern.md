@@ -24,6 +24,10 @@ Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitH
 -  Sichere Übertragung von Daten
 -  Geheim und authentifiziert
 
+### Betrachtung in Vortrag
+
+-  SMTP: Zwischen SMTP-Servern (MTA)
+
 ## Angriffsmodell
 
 -  Annahme: Keine Übernahme der Server durch Angreifer
