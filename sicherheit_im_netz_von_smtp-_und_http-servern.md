@@ -31,6 +31,8 @@ Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitH
 ## Angriffsmodell
 
 -  Annahme: Keine Übernahme der Server durch Angreifer
+-  Annahme (SMTP): Vertrauen in Betreiber der Server auf Sender- und (Ziel-)Empfängerseite
+-  Annahme (HTTP): Sicherer Browser, HTTP korrekt konfiguriert
 -  Mittelsmannangriff
 
 ### Realistisch?
