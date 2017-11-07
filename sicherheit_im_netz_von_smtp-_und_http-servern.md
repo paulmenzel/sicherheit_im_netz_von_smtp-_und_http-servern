@@ -37,6 +37,9 @@ Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitH
 
 ## Lösungen (TLS)
 
+-  SMTP: `STARTTLS`
+-  HTTP: HTTPS (Port 443)
+
 -  Zertifizierungsstellen (DFN, Let’s Encrypt)
 -  [Monkeysphere Project](http://web.monkeysphere.info/)
 -  DANE
