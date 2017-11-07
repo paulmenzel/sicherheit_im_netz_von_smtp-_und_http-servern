@@ -149,8 +149,22 @@ Bitte überprüfen!
 
 # HTTP
 
-## Problem
+## Techniken
 
+1.  Weiterleitung von HTTP zu HTTPS (DNS-Angriff noch möglich)
+1.  HSTS (DNS-Angriff bei erstem Zugriff immer noch möglich)
+1.  HTTPS Everywhere (EFF)
+1.  HKPK
+1.  DNSSEC/DANE
+
+## DNSSEC/DANE
+
+1.  Abfrage von DANE nur mit Erweiterungen
+1.  Boykott von Browserherstellern (DNSSEC schwer zu handhaben), bevorzugen HKPK
+
+## Problem bei Umsetzung
+
+1.  Historie
 1.  Viele alte Dienste ohne HTTPS-Zertifikat, ohne ACME oder Wildcard-Zertifikate schwer zu handhaben
 1.  Never-touch-a-running System
 
