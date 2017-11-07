@@ -69,6 +69,13 @@ Verschiedene Angriffe.
 1.  OpenSSL, GnuTLS
 1.  [Nmap](https://nmap.org/)
 1.  [SSLyze](https://nabla-c0d3.github.io/)
+1.  `posttls-finger`
+
+## Beispiel zu posttls-finger
+
+```
+$ posttls-finger …
+```
 
 # MPG
 
