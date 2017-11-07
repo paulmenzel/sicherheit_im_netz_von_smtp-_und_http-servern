@@ -52,9 +52,23 @@ Verschiedene Angriffe.
 
 ## Sichere Konfiguration
 
+<postmaster@….mpg.de> nach RFC 822 Pflicht!
+
 1.  [BetterCrypto.org](https://bettercrypto.org/)
 1.  [Mozilla Wiki: Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS)
 1.  [Cipherli.st](https://cipherli.st/)
+
+## Ideal für SMTP
+
+Mehrere Komponenten: DNS, Zertifikate
+
+### TLS
+
+-   MX-Eintrag stimmt mit Servernamen überein
+
+### DANE
+
+-  TLSA-DNS-Einträge
 
 ## Test
 
@@ -82,6 +96,28 @@ $ posttls-finger …
 ## Zeitraum
 
 -   8\. November 2017
+
+# Inkorrekte MX-Einträge
+
+## Beispiel GV
+
+```
+$ host mpg.de
+[…]
+$ host mx1.mpg.de
+[…]
+```
+
+Keine Antwort von postmaster@mpg.de auf Nachricht.
+
+## Problem Verwaltungsadressen
+
+```
+$ host vw.molgen.mpg.de
+[…]
+```
+
+Bitte überprüfen!
 
 # Ausblick
 
