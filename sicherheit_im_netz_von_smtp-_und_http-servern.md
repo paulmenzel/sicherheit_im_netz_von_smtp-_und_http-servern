@@ -119,6 +119,18 @@ $ host vw.molgen.mpg.de
 
 Bitte überprüfen!
 
+# HTTP
+
+## Problem
+
+1.  Viele alte Dienste ohne HTTPS-Zertifikat, ohne ACME oder Wildcard-Zertifikate schwer zu handhaben
+1.  Never-touch-a-running System
+
+## Lösung
+
+1.  SSL-Terminierung (HAProxy)
+1.  Wechsel zu Let’s Encrypt und Skript, dass Zertifikate in Echtzeit erstellt
+
 # Ausblick
 
 ## Sicherheit der Serverprogramme
@@ -128,5 +140,12 @@ Bitte überprüfen!
 -   Untersuchung der Sicherheit der Server
     -   SMTP: Postfix, Exim, …
     -   HTTP: Apache HTTP Server, Nginx, …
+
+# Fazit
+
+1.  MPG-Netz auch Vorbildwirkung
+1.  Mehr Gewissenhaftigkeit
+1.  Mehr Bewusstsein (DNSSEC, DFN)
+1.  Ohne DANE keine automatische Konfiguration möglich, manuelle Konfiguration erforderlich
 
 # Fragen
