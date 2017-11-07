@@ -31,9 +31,9 @@ Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitH
 
 ### Realistisch?
 
--  DFN-Netz separat vom „Internet“
--  Netzwerkgeräte meist im Ausland produziert und enthält BLOBs
--  Snowden-Veröffentlichungen zeigen, dass realistisch.
+-  Innerhalb der MPG: DFN-Netz separat vom „Internet“ (Florida, CBS, …)
+-  Netzwerkgeräte meist im Ausland produziert und enthalten BLOBs
+-  Snowden-Veröffentlichungen zeigen, dass realistisch
 
 ## Lösungen (TLS)
 
