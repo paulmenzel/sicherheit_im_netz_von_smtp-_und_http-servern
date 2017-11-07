@@ -13,7 +13,9 @@
 
 ## Präsentation
 
-URL: <https://github.com/paulmenzel/sicherheit_im_netz_von_smtp-_und_http-servern>
+Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitHub.
+
+<https://github.com/paulmenzel/sicherheit_im_netz_von_smtp-_und_http-servern>
 
 # Problemstellung
 
