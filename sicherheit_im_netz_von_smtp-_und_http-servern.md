@@ -29,16 +29,29 @@
 -  Netzwerkgeräte meist im Ausland produziert und enthält BLOBs
 -  Snowden-Veröffentlichungen zeigen, dass realistisch.
 
-## Lösungen
+## Lösungen (TLS)
 
--  TLS
-   -  Zertifikatsstellen
-   -  [Monkeysphere Project](http://web.monkeysphere.info/)
+-  Zertifizierungsstellen (DFN, Let’s Encrypt)
+-  [Monkeysphere Project](http://web.monkeysphere.info/)
 -  DANE
 
 ### Nur bei SMTP
 
 -  Ende-zu-Ende-Verschlüsselung (PGP/GPG, S/MIME)
+
+## Zielumsetzung
+
+### SMTP
+
+-  Authentifizierung: Zustellung an korrekten Server
+-  Schutz der Metadaten
+-  geheime Übertragung auch bei nicht Ende-zu-Ende-Verschlüsselung
+
+### HTTP
+
+-  Authentifizierung: Kommunikation mit korrektem Server (Interaktion)
+-  Datenschutz (Metadaten wie URL geschützt)
+-  Verschlüsselung
 
 # Angriffe
 
