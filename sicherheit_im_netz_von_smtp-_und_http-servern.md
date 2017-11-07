@@ -8,7 +8,7 @@
 
 
 - Systemarchitekt beim [Max-Planck-Institut für molekulare Genetik](https://www.molgen.mpg.de/)
-- Diplom-Wirtschaftsmathematiker an [TU Berlin](https://www.tu-berlin.de/)
+- Diplom-Wirtschaftsmathematiker ([TU Berlin](https://www.tu-berlin.de/))
 - FLOSS-Befürworter
 
 ## Präsentation
