@@ -11,6 +11,10 @@
 - Diplom-Wirtschaftsmathematiker an [TU Berlin](https://www.tu-berlin.de/)
 - FLOSS-Befürworter
 
+## Präsentation
+
+URL: <https://github.com/paulmenzel/sicherheit_im_netz_von_smtp-_und_http-servern>
+
 # Problemstellung
 
 ## Ziel
@@ -154,7 +158,7 @@ Bitte überprüfen!
     -   SMTP: Postfix, Exim, …
     -   HTTP: Apache HTTP Server, Nginx, …
 
-# Fazit
+## Fazit
 
 1.  MPG-Netz auch Vorbildwirkung
 1.  Mehr Gewissenhaftigkeit
