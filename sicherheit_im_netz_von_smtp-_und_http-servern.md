@@ -79,7 +79,7 @@ mx1-cbs-mpg.heinlein-support.de.
 
 -  Authentifizierung: Zustellung an korrekten Server
 -  Schutz der Metadaten
--  geheime Übertragung auch bei nicht Ende-zu-Ende-Verschlüsselung
+-  Geheime Übertragung auch bei nicht Ende-zu-Ende-Verschlüsselung
 
 ### HTTP
 
