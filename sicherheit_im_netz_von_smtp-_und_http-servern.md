@@ -149,10 +149,16 @@ $ posttls-finger …
 ## Beispiel GV
 
 ```
-$ host mpg.de
-[…]
+$ host -t mx mpg.de
+mpg.de mail is handled by 5 mx1.mpg.de.
+mpg.de mail is handled by 5 mx2.mpg.de.
 $ host mx1.mpg.de
-[…]
+mx1.mpg.de has address 194.95.232.60
+mx1.mpg.de has address 194.95.238.60
+mx1.mpg.de has address 194.95.234.60
+$ host 194.95.232.60
+60.232.95.194.in-addr.arpa domain name pointer \
+mfilter-123-1-1.mx.srv.dfn.de.
 ```
 
 Keine Antwort von postmaster@mpg.de auf Nachricht.
@@ -161,10 +167,23 @@ Keine Antwort von postmaster@mpg.de auf Nachricht.
 
 ```
 $ host vw.molgen.mpg.de
-[…]
+vw.molgen.mpg.de mail is handled by 5 mx2.mpg.de.
+vw.molgen.mpg.de mail is handled by 5 mx1.mpg.de.
+```
+
+```
+$ host vw.molgen.mpg.de
+vw.molgen.mpg.de mail is handled by \
+5 mfilter-123-1-2.mx.srv.dfn.de.
+vw.molgen.mpg.de mail is handled by \
+5 mfilter-123-1-1.mx.srv.dfn.de.
+vw.molgen.mpg.de mail is handled by \
+5 mfilter-123-1-3.mx.srv.dfn.de.
 ```
 
 Bitte überprüfen!
+
+GWDG sollte aktiv werden.
 
 # HTTP
 
