@@ -39,7 +39,7 @@ TinyURL: <https://tinyurl.com/smtphttp>
 
 ## Mittelsmannangriff
 
-![Mittelsmannangriff (https://www.elie.net/blog/understanding-how-tls-downgrade-attacks-prevent-email-encryption)](images/how_email_encryption_works.jpg){ height=50% }
+![Mittelsmannangriff (<https://www.elie.net/blog/understanding-how-tls-downgrade-attacks-prevent-email-encryption)>](images/how_email_encryption_works.jpg){ height=50% }
 
 ## Realistisch?
 
