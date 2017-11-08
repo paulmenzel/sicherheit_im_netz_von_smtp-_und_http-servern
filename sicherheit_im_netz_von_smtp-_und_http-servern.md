@@ -67,7 +67,7 @@ mx1-cbs-mpg.heinlein-support.de.
 
 -  Zertifizierungsstellen (DFN, [Let’s Encrypt](https://letsencrypt.org/))
 -  [Monkeysphere Project](http://web.monkeysphere.info/)
--  DANE
+-  DNSSEC/DANE
 
 ### Nur bei SMTP
 
@@ -130,7 +130,7 @@ Mehrere Komponenten: DNS, Zertifikate
 
 -   MX-Eintrag stimmt mit Servernamen überein
 
-### DANE
+### DNSSEC/DANE
 
 -  TLSA-DNS-Einträge
 
@@ -198,7 +198,7 @@ vw.molgen.mpg.de mail is handled by \
 
 Bitte überprüfen!
 
-GWDG sollte aktiv werden.
+GWDG und DFN sollten aktiv werden.
 
 # HTTP
 
