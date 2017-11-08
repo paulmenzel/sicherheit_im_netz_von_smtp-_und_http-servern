@@ -13,7 +13,7 @@
 
 ## Präsentation
 
-Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitHub.
+Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewandelt, verfügbar auf GitHub.
 
 TinyURL: <https://tinyurl.com/smtphttp>
 
