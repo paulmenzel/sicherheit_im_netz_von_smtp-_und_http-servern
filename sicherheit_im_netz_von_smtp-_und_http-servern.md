@@ -65,7 +65,7 @@ mx1-cbs-mpg.heinlein-support.de.
 -  SMTP: `STARTTLS`
 -  HTTP: HTTPS (Port 443)
 
--  Zertifizierungsstellen (DFN, Let’s Encrypt)
+-  Zertifizierungsstellen (DFN, [Let’s Encrypt](https://letsencrypt.org/))
 -  [Monkeysphere Project](http://web.monkeysphere.info/)
 -  DANE
 
@@ -209,7 +209,7 @@ GWDG sollte aktiv werden.
 ## Lösung
 
 1.  SSL-Terminierung (HAProxy)
-1.  Wechsel zu Let’s Encrypt und Skript, dass Zertifikate in Echtzeit erstellt
+1.  Wechsel zu [Let’s Encrypt](https://letsencrypt.org/) und Skript, dass Zertifikate in Echtzeit erstellt
 
 ## HTTP/2
 
