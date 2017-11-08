@@ -43,7 +43,20 @@ TinyURL: <https://tinyurl.com/smtphttp>
 
 ## Realistisch?
 
--  Innerhalb der MPG: DFN-Netz separat vom „Internet“ (Florida, CBS, …)
+-  Innerhalb der MPG: DFN-Netz separat vom „Internet“
+-  Dienste außerhalb
+
+```
+$ host -t mx maxplanckflorida.org
+maxplanckflorida.org mail is handled by \
+0 maxplanckflorida-org.mail.protection.outlook.com.
+$ host -t mx cbs.mpg.de
+cbs.mpg.de mail is handled by \
+10 mx0-cbs-mpg.heinlein-support.de.
+cbs.mpg.de mail is handled by 20 \
+mx1-cbs-mpg.heinlein-support.de.
+```
+
 -  Netzwerkgeräte meist im Ausland produziert und enthalten BLOBs
 -  Snowden-Veröffentlichungen zeigen, dass realistisch
 
