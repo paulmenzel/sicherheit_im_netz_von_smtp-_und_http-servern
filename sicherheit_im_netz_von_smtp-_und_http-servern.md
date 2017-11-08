@@ -105,18 +105,6 @@ Verschiedene Angriffe.
 1.  [Mozilla Wiki: Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS)
 1.  [Cipherli.st](https://cipherli.st/)
 
-## Ideal für SMTP
-
-Mehrere Komponenten: DNS, Zertifikate
-
-### TLS
-
--   MX-Eintrag stimmt mit Servernamen überein
-
-### DANE
-
--  TLSA-DNS-Einträge
-
 ## Test
 
 ### WWW
@@ -130,12 +118,39 @@ Mehrere Komponenten: DNS, Zertifikate
 1.  OpenSSL, GnuTLS
 1.  [Nmap](https://nmap.org/)
 1.  [SSLyze](https://nabla-c0d3.github.io/)
-1.  `posttls-finger`
+1.  SMTP: `posttls-finger`
+
+# SMTP
+
+## Ideal für SMTP
+
+Mehrere Komponenten: DNS, Zertifikate
+
+### TLS
+
+-   MX-Eintrag stimmt mit Servernamen überein
+
+### DANE
+
+-  TLSA-DNS-Einträge
 
 ## Beispiel zu posttls-finger
 
 ```
-$ posttls-finger …
+$ /usr/sbin/posttls-finger -c -l secure \
+-P /etc/ssl/certs mpifr-bonn.mpg.de
+posttls-finger: mail2.mpifr-bonn.mpg.de[134.104.18.60]:25: \
+Matched subjectAltName: mail2.mpifr-bonn.mpg.de
+posttls-finger: mail2.mpifr-bonn.mpg.de[134.104.18.60]:25 \
+CommonName mail2.mpifr-bonn.mpg.de
+posttls-finger: mail2.mpifr-bonn.mpg.de[134.104.18.60]:25: \
+subject_CN=mail2.mpifr-bonn.mpg.de, issuer_CN=MPG CA, \
+fingerprint=CA:5D:E7:7C:8A:6B:C5:4B:CC:7E:DB:F1:0C:43:C1:76:48:15:8C:38, \
+pkey_fingerprint=FD:27:CA:F2:DD:0B:AD:91:9C:6E:83:90:5E:A4:D7:DF:1A:50:BB:F5
+posttls-finger: Verified TLS connection established to \
+mail2.mpifr-bonn.mpg.de[134.104.18.60]:25: \
+TLSv1.2 with cipher \
+ECDHE-RSA-AES256-GCM-SHA384 \(256/256 bits)
 ```
 
 # MPG
