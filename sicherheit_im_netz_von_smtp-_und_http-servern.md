@@ -15,6 +15,8 @@
 
 Folien in Markdown mit Pandoc nach LaTeX-Beamer umgewandelt, verfügbar auf GitHub.
 
+TinyURL: <https://tinyurl.com/smtphttp>
+
 <https://github.com/paulmenzel/sicherheit_im_netz_von_smtp-_und_http-servern>
 
 # Problemstellung
