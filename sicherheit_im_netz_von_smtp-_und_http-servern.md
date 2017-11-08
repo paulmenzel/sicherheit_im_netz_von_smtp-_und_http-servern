@@ -37,7 +37,11 @@ TinyURL: <https://tinyurl.com/smtphttp>
 -  Annahme (HTTP): Sicherer Browser, HTTP korrekt konfiguriert
 -  Mittelsmannangriff
 
-### Realistisch?
+## Mittelsmannangriff
+
+![Mittelsmannangriff (https://www.elie.net/blog/understanding-how-tls-downgrade-attacks-prevent-email-encryption)](images/how_email_encryption_works.jpg){ height=50% }
+
+## Realistisch?
 
 -  Innerhalb der MPG: DFN-Netz separat vom „Internet“ (Florida, CBS, …)
 -  Netzwerkgeräte meist im Ausland produziert und enthalten BLOBs
