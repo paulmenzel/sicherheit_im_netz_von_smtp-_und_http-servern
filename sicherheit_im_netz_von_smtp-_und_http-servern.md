@@ -155,10 +155,6 @@ ECDHE-RSA-AES256-GCM-SHA384 \(256/256 bits)
 
 # MPG
 
-## Zeitraum
-
--   8\. November 2017
-
 # Inkorrekte MX-Einträge
 
 ## Beispiel GV
@@ -177,6 +173,11 @@ mfilter-123-1-1.mx.srv.dfn.de.
 ```
 
 Keine Antwort von postmaster@mpg.de auf Nachricht.
+
+## Betroffen (9. November 2017)
+
+-  Mindestens 15 Einrichtungen mit veralteten mx??.mpg.de MX-Einträgen.
+-  Mindestens 4 Einrichtungen mit veralteten mx??.gwdg.de MX-Einträgen.
 
 ## Problem Verwaltungsadressen
 
