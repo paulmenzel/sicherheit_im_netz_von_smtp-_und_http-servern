@@ -208,13 +208,13 @@ GWDG und DFN sollten aktiv werden.
 1.  Weiterleitung von HTTP zu HTTPS (DNS-Angriff noch möglich)
 1.  HSTS (DNS-Angriff bei erstem Zugriff immer noch möglich)
 1.  HTTPS Everywhere (EFF)
-1.  HKPK
+1.  HPKP (HTTP Public Key Pinning)
 1.  DNSSEC/DANE
 
 ## DNSSEC/DANE
 
 1.  Abfrage von DANE nur mit Erweiterungen
-1.  Boykott von Browserherstellern (DNSSEC schwer zu handhaben), bevorzugen HKPK
+1.  Boykott von Browserherstellern (DNSSEC schwer zu handhaben), bevorzugen HPKP
 
 ## Problem bei Umsetzung
 
